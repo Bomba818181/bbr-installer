@@ -1,0 +1,28 @@
+bb.import(termux);
+bb.import(Upper_case);
+
+from termux bb.export(import(local, command, update));
+
+DetectFetchingVersion();
+ApplicationOption.CreateNewTabs.OptionSeclect(ExportData(ImportData.After(System.TextName"Modify", Icon"/com.termux.icons/icons/gearPlus.png", OperateAs.SystemsOperation.ApplicationAuthentication.AuthId > AuthApplication(CheckId = "0077378165",Tab.AuthAs(Tab),Tab.ShowGui.After(Event'click":true;'check-'){
+     Gui.InstanceAdd(GuiAuth);
+     Gui.CreateInstance(Start):
+     Gui.StartInstance(True, Yes) {
+          EncryptionAuthenticationDetection(Task.CompleteIf(SystemsApplication.Apply))
+            Terminal.RunCommand('gps install pp','custom');
+              Gui.Load(PrefrencesAuthentication);
+              Gui.AddDrawer {
+                 HTMLPref(LoadUrl("")OpenHTMLViewer);
+              }
+              If Instance.OnLoad,Start {
+                 bb.stop:
+                 bb.destroy
+                 ;
+                 bb.start:
+                 bb.destroy
+                 ;
+              }
+              End Gui
+            End Terminal
+     };
+}))));
